@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#e8eee3"><title>HIGHWATER | The Last Rooftop</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#e8eee3;color:#29413b;font:14px system-ui,sans-serif;min-height:100dvh;display:grid;place-items:center}#frame{position:relative;width:min(100vw,calc((100dvh - 35px)*1.7777778),1600px);aspect-ratio:16/9;background:#b7cec1;overflow:hidden}canvas{width:100%;height:100%;display:block;outline:none;touch-action:none}#loading{position:absolute;inset:0;background:#fbf6e4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px}h1{font-size:clamp(30px,5vw,65px);letter-spacing:.09em;margin:0}p{margin:0;color:#728678}progress{width:260px;height:7px;accent-color:#ffcd42}footer{height:35px;display:flex;align-items:center;justify-content:space-between;max-width:1600px;width:100%;padding:0 15px;font-size:10px;color:#718578}button{font:inherit;color:#29413b;border:0;background:transparent;cursor:pointer;padding:6px 10px}#error{white-space:pre-wrap;max-width:600px;padding:25px;display:none}
+</style>
+</head>
+<body><main><div id="frame"><canvas id="unity-canvas" width="1280" height="720" tabindex="0" aria-label="HIGHWATER เกมวางบล็อกหนีน้ำท่วม"></canvas><div id="loading"><h1>HIGHWATER</h1><p>กำลังเตรียมเมือง / Building your little city</p><progress id="progress" max="1" value="0"></progress><p id="error"></p></div></div><footer><span>SPACE · วางบล็อก / DROP　 P · พักเกม / PAUSE</span><button id="fullscreen">เต็มจอ / Fullscreen ↗</button></footer></main>
+<script src="Build/Web.loader.js"></script>
+<script>
+const canvas=document.getElementById('unity-canvas');
+createUnityInstance(canvas,{
+  dataUrl:'Build/Web.data',frameworkUrl:'Build/Web.framework.js',codeUrl:'Build/Web.wasm',
+  streamingAssetsUrl:'StreamingAssets',companyName:'Highwater',productName:'HIGHWATER',productVersion:'0.2.0',
+  devicePixelRatio:1,
+}, value=>document.getElementById('progress').value=value).then(instance=>{
+  document.getElementById('loading').style.display='none';canvas.focus();
+  document.getElementById('fullscreen').onclick=()=>instance.SetFullscreen(1);
+}).catch(error=>{const box=document.getElementById('error');box.style.display='block';box.textContent=String(error);});
+</script></body></html>

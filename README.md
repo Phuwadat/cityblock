@@ -1,10 +1,11 @@
 # HIGHWATER — The Last Rooftop
 
-A cozy block-stacking game built with Unity.
+Cozy Unity block-stacking game, Thai / English.
 
 Play: https://phuwadat.github.io/cityblock/
 
-Controls: Space or click to place a block. P / Esc to pause.
-Thai and English UI; Low / Medium / High graphics; optional Gaussian / Bokeh Tilt-Shift blur.
+Space / click: drop. P / Esc: pause. Use Settings for graphics and optional Gaussian / Bokeh Tilt-Shift blur.
 
-This repository contains the playable WebGL build. The Unity project remains in the local workspace.
+WebGL build only. Unity source and editor caches stay in the local project.
+
+GitHub Pages source: Deploy from a branch → main → / (root). Subsequent pushes publish automatically.
