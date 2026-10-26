@@ -1,9 +1,12 @@
 {
-  "version": "0.5.0",
-  "unityPlayerVersion": "0.4.0",
-  "packagedAt": "2026-10-26T12:22:30.669818+00:00",
+  "version": "0.5.1",
+  "unityPlayerVersion": "0.5.0",
+  "packagedAt": "2026-10-26T13:14:22.698979+00:00",
   "features": [
-    "online-three-player-rooms",
+    "online-two-or-three-player-rooms",
+    "multiplayer-perfect-feedback",
+    "lobby-placement-guide",
+    "web-clipboard",
     "three-round-competition",
     "close-up-player-camera",
     "survivor-spectating",
@@ -17,36 +20,36 @@
       "gitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
     },
     {
-      "path": "Build/31c2e602b2b6f22ca929b874930fe805.framework.js.unityweb",
-      "bytes": 94662,
-      "sha256": "7bbfe7429760b73406a99cca5ca8515ea3650f6c2aec8d9ee23017a04966d11c",
-      "gitBlob": "c17b8d45b7ef2b8b0fb7a4deecbc2547e85dee63"
-    },
-    {
-      "path": "Build/a53f8bec7218c17452b261c00cac50ca.data.unityweb",
-      "bytes": 31256087,
-      "sha256": "def9cdd37c3a04ee2a1121bdb2a0564dd06f0acc103c275ee73c2beef3b28daf",
-      "gitBlob": "e0f389b8c952c85925c8d87c6e44841e97d042a4",
-      "uncompressedBytes": 40576204
-    },
-    {
-      "path": "Build/e5faf937bcf7186c8b733637eefc3f38.wasm.unityweb",
-      "bytes": 11919178,
-      "sha256": "2bd713617724f382b0ef0c5b7ec6332928987a103728b0716fd020a9c1a1fa29",
-      "gitBlob": "0dda78603d68a22d222e152deca1b698adb151cc",
-      "uncompressedBytes": 51202628
-    },
-    {
-      "path": "Build/fa6e3019ee529c2ba1de40e007f621a4.loader.js",
+      "path": "Build/19cde340b143fb115a072f0406f5aef0.loader.js",
       "bytes": 47866,
-      "sha256": "743c65d408d7818b1549f735a2f93a7061977de0048258389f22f1f53b8b3643",
-      "gitBlob": "5a4c1bcc1cdd708ca75a4f5427b9cd5d888801ba"
+      "sha256": "3dcc656775f587b8b1ec7c3f2af1c81c454116b31f5912e5aeacab68d62f0ef5",
+      "gitBlob": "55ea3ec93d804107051d65c96272909ef2caed1b"
+    },
+    {
+      "path": "Build/572e7b99f5b59be549c5c1b4d047d4f4.data.unityweb",
+      "bytes": 31255739,
+      "sha256": "e82df83da5d67d8af8c5b2eb20e23f629187e8aa22d5cf3c43f54d6ee64c2816",
+      "gitBlob": "01aeb3e63aeaee72c64bdf17041ddb58987d157f",
+      "uncompressedBytes": 40576791
+    },
+    {
+      "path": "Build/5f5bd1f91a17162f4625d0efc59fbdda.wasm.unityweb",
+      "bytes": 11919378,
+      "sha256": "98d63171213603f4622d648e56b069a565e3ae93a847ff0b58c7d087f3f3edfe",
+      "gitBlob": "429a75cd4d4a8a4e4238c24654c89f81ce807ed7",
+      "uncompressedBytes": 51206209
+    },
+    {
+      "path": "Build/79edbcef0133ac2516cdc2ccaa401c1c.framework.js.unityweb",
+      "bytes": 94958,
+      "sha256": "3cbb8bdc73fc600fd504c9a4b156b44765bac6cec47e3ccd3f569bb54e2b069f",
+      "gitBlob": "df2a8a2a1fecb30a03529079a97278439c4960f5"
     },
     {
       "path": "index.html",
       "bytes": 2981,
-      "sha256": "6c9fa2164d67eb2c3973722b74a07e35dfbe166c4084cd58bc7f8de5e53b9032",
-      "gitBlob": "1117964dbfd7dae920c77d9f3b0e0bb8554c912e"
+      "sha256": "613280d9a55f22b4f85b68ad7a7051b92e2e9026e48e0166380674f1cf470d64",
+      "gitBlob": "43dd8e4a0c8028d1366f787d388d5899c82ed58e"
     },
     {
       "path": "LICENSES/com.unity.netcode.gameobjects-LICENSE.md",
@@ -110,9 +113,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 1247,
-      "sha256": "688d256ce2445ea9be45c039c1623b16b1c1b72b0c5b577923c9da638ae031a4",
-      "gitBlob": "56eb20c5dde652633d98a11b4f35ec111dbeb407"
+      "bytes": 1448,
+      "sha256": "9b2359db377c16710f07e362b7f59b08fb42d4b974161a7db247e9cd93d3c4c6",
+      "gitBlob": "88c8d4b156197f0778cee8970b2a0354724f225c"
     },
     {
       "path": "StreamingAssets/UnityServicesProjectConfiguration.json",
