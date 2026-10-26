@@ -1,12 +1,14 @@
 # HIGHWATER — The Last Rooftop
 
-Play: https://phuwadat.github.io/cityblock/?v=0.5.1
+Play: https://phuwadat.github.io/cityblock/?v=0.5.2
 
-## Version 0.5.1
+## Version 0.5.2
 
 - Two- or three-player, player-hosted online rooms with a shareable join code through Unity MPS and Relay over WSS.
 - Three rounds, shared floodwater and events, authoritative placement/scoring, ready checks and spectator views.
 - A closer camera centred on your own tower, with smooth following and an overview of surviving friends after elimination.
+- Earthquake displacement reduced by 50% in solo and multiplayer, with continuous shaking preserved.
+- Immediate local drop prediction with host reconciliation, timestamped swing rewind, smoother remote towers, and live RTT/version display.
 - Perfect/combo popups and golden landing effects on every player tower.
 - Per-player placement guide choice in the lobby and browser-native room-code copy with a manual fallback.
 - CPU opponents for a quick offline test. Browser players use online room codes; LAN is available only in desktop builds.
