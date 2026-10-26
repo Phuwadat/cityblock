@@ -2,22 +2,23 @@
 <html lang="th">
 <head>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23235b5f'/%3E%3Ctext x='6' y='24' fill='%23ffcf42' font-size='25'%3EH%3C/text%3E%3C/svg%3E">
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="highwater-version" content="0.5.0"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#e8eee3"><title>HIGHWATER | The Last Rooftop</title>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#e8eee3;color:#29413b;font:14px system-ui,sans-serif;min-height:100dvh;display:grid;place-items:center}#frame{position:relative;width:min(100vw,calc((100dvh - 35px)*1.7777778),1600px);aspect-ratio:16/9;background:#b7cec1;overflow:hidden}canvas{width:100%;height:100%;display:block;outline:none;touch-action:none}#loading{position:absolute;inset:0;background:#fbf6e4;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px}h1{font-size:clamp(30px,5vw,65px);letter-spacing:.09em;margin:0}p{margin:0;color:#728678}progress{width:260px;height:7px;accent-color:#ffcd42}footer{height:35px;display:flex;align-items:center;justify-content:space-between;max-width:1600px;width:100%;padding:0 15px;font-size:10px;color:#718578}button{font:inherit;color:#29413b;border:0;background:transparent;cursor:pointer;padding:6px 10px}#error{white-space:pre-wrap;max-width:600px;padding:25px;display:none}
 </style>
 </head>
-<body><main><div id="frame"><canvas id="unity-canvas" width="1280" height="720" tabindex="0" aria-label="HIGHWATER เกมวางบล็อกหนีน้ำท่วม"></canvas><div id="loading"><h1>HIGHWATER</h1><p>กำลังเตรียมเมือง / Building your little city</p><progress id="progress" max="1" value="0"></progress><p id="error"></p></div></div><footer><span>SPACE · วางบล็อก / DROP　 P · พักเกม / PAUSE</span><button id="fullscreen">เต็มจอ / Fullscreen ↗</button></footer></main>
-<script src="Build/eb64dcf82145601c2c76038451bc2c00.loader.js"></script>
+<body><main><div id="frame"><canvas id="unity-canvas" width="1280" height="720" tabindex="0" aria-label="HIGHWATER เกมวางบล็อกหนีน้ำท่วม"></canvas><div id="loading"><h1>HIGHWATER</h1><p>กำลังเตรียมเมือง / Building your little city</p><progress id="progress" max="1" value="0"></progress><p id="error"></p></div></div><footer><span>v0.5.0 · SPACE · วางบล็อก / DROP　 P · พักเกม / PAUSE</span><button id="fullscreen">เต็มจอ / Fullscreen ↗</button></footer></main>
+<script src="Build/fa6e3019ee529c2ba1de40e007f621a4.loader.js"></script>
 <script>
 const canvas=document.getElementById('unity-canvas');
 createUnityInstance(canvas,{
-  dataUrl:'Build/8d4f55461fc1f26ffcaef1b75ccdcb53.data.unityweb',frameworkUrl:'Build/9608fd179be683e0f177d2e9a00db064.framework.js.unityweb',codeUrl:'Build/4befdb9f2d8f21d0efc950dec68b6cc4.wasm.unityweb',
-  streamingAssetsUrl:'StreamingAssets',companyName:'Highwater',productName:'HIGHWATER',productVersion:'0.4.0',
+  dataUrl:'Build/a53f8bec7218c17452b261c00cac50ca.data.unityweb',frameworkUrl:'Build/31c2e602b2b6f22ca929b874930fe805.framework.js.unityweb',codeUrl:'Build/e5faf937bcf7186c8b733637eefc3f38.wasm.unityweb',
+  streamingAssetsUrl:'StreamingAssets',companyName:'Highwater',productName:'HIGHWATER',productVersion:'0.5.0',
   devicePixelRatio:1,
 }, value=>document.getElementById('progress').value=value).then(instance=>{
   document.getElementById('loading').style.display='none';canvas.focus();
   document.getElementById('fullscreen').onclick=()=>instance.SetFullscreen(1);
 }).catch(error=>{const box=document.getElementById('error');box.style.display='block';box.textContent=String(error);});
 </script></body></html>
+
