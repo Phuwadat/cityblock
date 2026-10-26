@@ -1,0 +1,32 @@
+{
+  "version": "0.4.0",
+  "builtAt": "2026-10-26T02:49:24Z",
+  "features": [
+    "storybook-intro",
+    "thai-advanced-text-shaping",
+    "shuffled-gameplay-music",
+    "perfect-combo-rewards"
+  ],
+  "assets": [
+    {
+      "path": "Build/4befdb9f2d8f21d0efc950dec68b6cc4.wasm.unityweb",
+      "bytes": 7336365,
+      "sha256": "7263d6b4a2711c91635a416d2594bf515fdcd94f7760f4fd9df274c5d2d49d97"
+    },
+    {
+      "path": "Build/8d4f55461fc1f26ffcaef1b75ccdcb53.data.unityweb",
+      "bytes": 29628108,
+      "sha256": "f1c0ac0383d6fe954d3e917f60b3510f77bd4f82cb4125106f261b98a0ea99f4"
+    },
+    {
+      "path": "Build/9608fd179be683e0f177d2e9a00db064.framework.js.unityweb",
+      "bytes": 86289,
+      "sha256": "792dfbee96bd49d27ecd7da0ed121869712b94d9cbdf01147d9a1d35ddebfc23"
+    },
+    {
+      "path": "Build/eb64dcf82145601c2c76038451bc2c00.loader.js",
+      "bytes": 47866,
+      "sha256": "61111e63c5c8328fa25a6101916e4c078e14bd1b0e1cadd570a3c0263ffbb74c"
+    }
+  ]
+}
