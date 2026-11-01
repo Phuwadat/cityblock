@@ -1,7 +1,7 @@
 {
-  "version": "0.6.0",
-  "unityPlayerVersion": "0.6.0",
-  "packagedAt": "2026-10-28T11:33:34.675739+00:00",
+  "version": "0.6.1",
+  "unityPlayerVersion": "0.6.1",
+  "packagedAt": "2026-11-01T11:33:42.422533+00:00",
   "features": [
     "local-drop-prediction",
     "host-swing-rewind",
@@ -29,36 +29,36 @@
       "gitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
     },
     {
-      "path": "Build/312aa616477f1cdbe185aee709744618.wasm.unityweb",
-      "bytes": 12006771,
-      "sha256": "8767f22027dcb1c86315d5fc08200a0a33098eba03f0273ddd7180b6eddab5bd",
-      "gitBlob": "040991d15936ad3562673dc254f86a9405bbc307",
-      "uncompressedBytes": 51486908
-    },
-    {
-      "path": "Build/5aa02211ad9e819bf943433428450c46.loader.js",
+      "path": "Build/1ebfc4f01a5b04483144f19c797d110f.loader.js",
       "bytes": 47866,
-      "sha256": "b0d85148950cca90a1516eef4ad23114516425bff38929239884149b7cdcc09e",
-      "gitBlob": "6bfcc6c15c6845c2707928217f0157efdf871009"
+      "sha256": "0692e5ec9d4d1dda3c43265a262e97f9b559ab4fb5ff7b7b1c303dbef898bdb4",
+      "gitBlob": "50636622f62de3bfa6272106be62011a12b3b91c"
     },
     {
-      "path": "Build/9ee0e496c60bb73b205628ab44f514f1.framework.js.unityweb",
-      "bytes": 98126,
-      "sha256": "091518abbff86e8db05eade5e184bec1c88262d0c576fd53c20479016629b3b8",
-      "gitBlob": "436099e0dcd1be4d39fddf8a4107c89ba4ab9177"
+      "path": "Build/5c289e441cc20d1b9740c12e1e4506e0.wasm.unityweb",
+      "bytes": 12006675,
+      "sha256": "0ef74a59a5aa0a47adbbce2ba99a517316eb9e9157786542bd3cae6582afdc8c",
+      "gitBlob": "49eb8e304924a295df7851f561500ae2410cec6d",
+      "uncompressedBytes": 51492390
     },
     {
-      "path": "Build/a75bcb01b45c0e038951c8fbb98b0882.data.unityweb",
-      "bytes": 33326251,
-      "sha256": "3d068d0747c2826befd0458d8f27d44a614b79070e05312a897c14aaa9d25af7",
-      "gitBlob": "0001f968b4b3cbe18f96e517b0b5dba3cd0c6b20",
-      "uncompressedBytes": 44715522
+      "path": "Build/629bf0f972ae2a16b29292edae0955cc.data.unityweb",
+      "bytes": 33326096,
+      "sha256": "dfafe69688276c05a1f0deba84b06324d805eb958803d39ffd09e79ef043bc41",
+      "gitBlob": "8e0b31273778ca047a29c865258ce479c1e84f49",
+      "uncompressedBytes": 44716281
+    },
+    {
+      "path": "Build/9410d0ac683f31619e250d50d7f45022.framework.js.unityweb",
+      "bytes": 98147,
+      "sha256": "5f67f39da0a9ef224c1e626056c071d3ce35d9a2f957c788bf55cc5acdeabfcc",
+      "gitBlob": "da51cef625987c1ff9e35f17d4396148a1f00291"
     },
     {
       "path": "index.html",
       "bytes": 7294,
-      "sha256": "272e27fbd18ca72a4cf08a13460800165049fa8b402c6b81d8b299273e38022a",
-      "gitBlob": "d8067b100ed06f79ee1c7dce9aaec2015d94109c"
+      "sha256": "436cdb0339ff7c30c3f4ed7c11c96a3b075aac2b8594687ca7904ab3b075be13",
+      "gitBlob": "09ab76584ed0597a9e1eae285f438c1ccc73dc18"
     },
     {
       "path": "LICENSES/com.unity.netcode.gameobjects-LICENSE.md",
@@ -134,9 +134,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 2495,
-      "sha256": "a7d0b08ece046f9018a3ecd35edd38f8da97f3ca94275cb51eab505e4a9815de",
-      "gitBlob": "1b6ef7a2a3b31b681cc81881021448c80017e9a4"
+      "bytes": 2671,
+      "sha256": "5b3b53f8792cfef18130b350d227b9675c67b2ba33ddc4754662f42321adc125",
+      "gitBlob": "cb337a8a05defec2699aeadfd394347c427a4c19"
     },
     {
       "path": "StreamingAssets/Ocean/day-1080.mp4",

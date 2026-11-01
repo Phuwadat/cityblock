@@ -1,12 +1,14 @@
 # HIGHWATER — The Last Rooftop
 
-Play: https://phuwadat.github.io/cityblock/?v=0.6.0
+Play: https://phuwadat.github.io/cityblock/?v=0.6.1
 
-## Version 0.6.0
+## Version 0.6.1
 
+- Direct tablet touch handling with duplicate mouse-click suppression; restored GUI transforms after drawing.
+- Lower default mobile graphics and fewer redundant shaped-text updates.
 - lilToon 2.4.1 Multi shader with shared colour/emission atlases; crisp Scene-view-like rendering without bloom or rim glow.
 - Silent day/night ocean video loops (1080p High / 720p Medium / still Low), crossfading every 30 floors.
-- Supplied CITYBLOCK loading cover, actual Unity progress and subtle CSS animation.
+- HIGHWATER loading cover, actual Unity progress and subtle CSS animation.
 - Spatial district obstacle index, reduced offscreen boat updates and no redundant activation or mesh-bounds work.
 - Easier opening balance, 10-floor width rewards and the solo close camera for CPU matches.
 - Two- or three-player, player-hosted online rooms with a shareable join code through Unity MPS and Relay over WSS.
